@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Braintem mini</title>
+
+    <!-- Sets initial viewport load and disables zooming  -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- Include the compiled Ratchet CSS -->
+    <link target="iframeMain" href="css/ratchet.css" rel="stylesheet">
+
+    <!-- Include the compiled Ratchet JS -->
+    <script src="js/ratchet.js"></script>
+  </head>
+
+<body>
+<header class="bar bar-nav">
+
+
+  <a class="icon icon-compose pull-right" href="#myModalexample"></a>
+  
+  <h1 class="title">
+  <span class="icon icon-person"></span>
+  <b>Braintem mini</b></h1>
+
+
+</header>
+
+<div id="myModalexample" class="modal">
+  <header class="bar bar-nav">
+    <a class="icon icon-close pull-right" href="#myModalexample"></a>
+    <h1 class="title">What's on your mind?</h1>
+  </header>
+
+  <div class="content">
+    <p class="content-padded">
+    
+    
+   <form action="http://braintem.org/twists/add/" id="TwistAddForm" enctype="multipart/form-data" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"></div>     
+
+     
+    
+    <div class="media row col-md-12 col-lg-12 col-sm-12 col-xs-12">
+  <div class="pull-left">
+      <a href="/users/view/1/"><img src="data:image/webp;base64,UklGRkoDAABXRUJQVlA4ID4DAAAwDwCdASoyADIAPpE+lkglo6IhKhmfQLASCWcAyjQnaUG0dKJpT4D5V3AbjO733w3oWtAP1ejhAAaALfopWSUFxLG0mIjYgPqwbIpk2h70nr5d7EwmihWf4Ol2s8R53Csj9X1RlCkfIgzs1XvOySQp4Y+KoDDC8+8FJjUdPqbGC8cAAP75kLsh6//x50Hm6FEyiyfvCtniYHAbG/K4QkHGXZjSfmLTYrBVB7JK7fX10gjxv7GxUkRQEgO8x/u2FqL6sUj3ZihoggUo2bfFTThZ/p8Ml+x34uE9IPvLYw9ZtQxYI+acgIRNuEkdimWvMafCNy7AO9J0PrnCzsvDfe0pA07Nu1LraocFawLq3utl79u4Hp5zKYtIotjJc6OLJ9S2e35bsdb7BQ5/KS3SA3shpOPLfAgD8GahjqeDa0sT2wm23nNt69LLsNZz9e8njCAUTXpd/HMGYMrPvDCwy0Oy54UD24XYUHxeHOSXL905KOgU9HbdeHEauZITFlvXFreq/5H424EtbPpig2LnkXNtNjJ/nfaf9GvgNcdxnzfrdPYlljsj+MiNe6SC/RnxHAWcvPDBH4fpSi4sWJ1cmsHJpILIzdU24b24h3ejzm8fHqRl750/O2q2ZtMbWombQB0pOS6a65cT6diQhEqtpOQXqEe6JTPm3tKtvWfzkZbHt5U9OHTMAD7BTI+5N4Ds61iFwFAsS9zOJ1fxHGtiiWpdbGMAsIeQnTtGKzUa+j1Oo25JAwkVtIWgOZlRb3sgixvm4BxwvR2x3WSE82QDhQNbT4AgSs07M/ygNaVU6xbZLnvLM72jX0LfKOH5+Qw2FDAictUvejrYWld/ZigrPcJ6b0lOXhsW4FBih9YSbNXaSpYLImh76S7LyUDObKaKqTxH6E70/NPwv1CRPmGROM6Ywv2gBiVhhlD/Un2w3cKjQWOmgA/99g7gVnRb1AedJtxrWN/YyHAQGeVw3KsD55fl2JP+SWFTzwBPtVND/YD3OZxwGhGzl+tyeXHLpcI+EsDNp6IiqFR3+W/99giCi02hXJ4dtHd/dbw6CnOoQDDJtFV8NLCQ/WK+5huf9LoNC/PbP88X1wqUL9VAAAAAAA==" class="media-object" alt=""></a>    
+  </div>
+  <div class="media-body" style="vertical-align: middle !important; padding-top: 20px;">
+   What have you discovered <a href="/twists/view/131964/">#today?</a>  
+  </div>
+</div>
+<div class="clearfix"></div><label for="TwistBody"></label>
+    <textarea name="data[Twist][body]" rows="10" cols="30" id="TwistBody" ></textarea>
+    
+    
+    <div class="input select">
+    <label for="TwistSeriesId">
+    <i>Select Series below <a href="/series/add/">(create new)</a> <a href="/series/index/my_series/">(see all)</a></i>
+    </label>
+    <select name="data[Twist][series_id]" id="TwistSeriesId">
+<option value="43991">C++ Tutorials</option>
+<option value="44142">Come Back Heroes</option>
+<option value="44032">Compiler Design and Lexical Analysis Tutorial</option>
+<option value="40425">Computer Fails</option>
+<option value="44098">Computer Software Engineering Tutorial</option>
+<option value="44029">Database Storage and Management System Tutorial</option>
+<option value="1">general</option>
+<option value="44320">Hours Of The Future</option>
+<option value="40503">How to build a fake church</option>
+<option value="44022">Human Psychology</option>
+<option value="4">Ideas And Inspiration</option>
+<option value="39973">Instant News</option>
+<option value="44008">Lexical Analysis</option>
+<option value="43262">My Business wise quotes and words of wisdom</option>
+<option value="40071">My Dreams</option>
+<option value="44039">Operating Systems</option>
+<option value="44187">Poems on Soul Levitation</option>
+<option value="44068">Propositional Logic</option>
+<option value="43925">Quotes By Dave Ozoalor and Friends</option>
+<option value="44004">Relational Algebra Tutorial</option>
+<option value="2">Romantic Poetry</option>
+<option value="44030">Startup ideas and the perfect product</option>
+<option value="44129">Unix Linux Shell Tutorial </option>
+<option value="43707">[private] Adults Only (18+)</option>
+<option value="43990">[private] C# Tutorials</option>
+<option value="44047">[private] Fixing our educational system</option>
+<option value="44031">[private] My Crazy Mid-Year Resolution</option>
+<option value="43968">[private] Private shii</option>
+<option value="44188">[private] Rap bars poetry</option>
+<option value="44069">[private] Should we demand proof in religion?</option>
+<option value="44003">[private] SQL Tutorial</option>
+<option value="43865">[private] The imitation of man</option>
+</select></div>        
+        <div class="submit">
+        <input class="follow btn btn-block btn-positive" type="submit" value="POST" ></div>
+        </form>
+   
+   </p>
+  </div>
+</div>
+
+
+<!-- pop over -->
+
+<div id="whatever" class="popover">
+	<header class="bar bar-nav">
+		<h1 class="title">Menu</h1>
+	</header>
+	<ul class="table-view">
+		<li class="table-view-cell"> 
+		
+		<a target="iframeMain" href="http://braintem.org/categories">Categories </a>
+		
+		</li>
+		<li class="table-view-cell"> <a target="iframeMain" href="http://braintem.org/series">Courses </a></li>
+		<li class="table-view-cell"> <a target="iframeMain" href="http://braintem.org/actions">Products</a></li>
+		<li class="table-view-cell"> <a target="iframeMain" href="http://braintem.org/orders">invoices</a></li>
+		<li class="table-view-cell"> <a target="iframeMain" href="http://braintem.org/people_groups">Groups </a></li>
+		<li class="table-view-cell"> <a target="iframeMain" href="http://braintem.org/shops">Shops </a></li>
+		<li class="table-view-cell"> <a target="iframeMain" href="http://braintem.org/forms">Forms </a></li>
+		<li class="table-view-cell"> <a target="iframeMain" href="http://braintem.org/adverts/add">Advertise on Braintem </a></li>
+		<li class="table-view-cell"> <a target="iframeMain" href="http://braintem.org/shops/view/5/shopMessagesViews/">Report to admin</a></li>
+	</ul>
+</div>
+
+<div class="content" >
+
+
+<iframe src="http://braintem.org" width="100%" height="100%" style="border: none" name="iframeMain">
+	
+</iframe>
+
+  
+   
+</div>
+
+
+	<nav class="bar bar-tab">
+		<a class="tab-item" target="iframeMain" href="http://braintem.org">
+			<span class="icon icon-home"></span>
+			<span class="tab-label">Home</span>
+		</a>
+		
+		  <a class="tab-item" target="iframeMain" href="http://braintem.org/users/view">
+		    <span class="icon icon-person"></span>
+		    <span class="tab-label">My Profile</span>
+		  </a>
+		  
+		  <a class="tab-item" target="iframeMain" href="http://braintem.org/users/dashboard">
+		    <span class="icon icon-star-filled"></span>
+		    <span class="tab-label">My Feed</span>
+		  </a>
+		  <a class="tab-item" target="iframeMain" href="http://braintem.org/series">
+		    <span class="icon icon-list"></span>
+		    <span class="tab-label">Courses</span>
+		  </a>
+		  <a class="tab-item" target="iframeMain" href="#whatever">
+		    <span class="icon icon-caret"></span>
+		    <span class="tab-label">More</span>
+		  </a>
+	</nav>
+</body>
+</html>
